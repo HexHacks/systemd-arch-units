@@ -1,5 +1,6 @@
 [Unit]
 Description=Network Connectivity
+Requires=network.target
 Before=network.target
 
 [Service]
